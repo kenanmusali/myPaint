@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="toolbar">
+        <button id="clearBtn">Clear</button>
+        <label for="brushSize">Brush Size:</label>
+        <input type="number" id="brushSize" class="brush-size" min="1" max="100" value="10">
+        <label for="tool">Tool:</label>
+        <select id="tool" class="tool-select">
+            <option value="draw">Draw</option>
+            <option value="erase">Erase</option>
+        </select>
+    </div>
+    <canvas id="paintCanvas"></canvas>
+    <script src="./main.js"></script>
+</body>
+
+</html>
